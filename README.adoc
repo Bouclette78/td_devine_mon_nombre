@@ -98,14 +98,14 @@ Pour utiliser ce crate, nous allons faire appel à Cargo pour gérer la dépenda
 Quels fichiers et répertoires ont été générés par cette commande ?
 +
 ....
-🡆 Répondre ici 🡄
+repertoir src avec main et cargo.toml
 ....
 .. Déplacez `devine_mon_nombre.rs` vers `src/main.rs` en utilisant https://git-scm.com/docs/git-mv[`git mv`].
 .. Exécutez votre programme avec https://doc.rust-lang.org/cargo/commands/cargo-run.html[`cargo run`].
 Qu'est-ce qui a été généré dans le répertoire ?
 +
 ....
-🡆 Répondre ici 🡄
+target
 ....
 . Ajoutez la bibliothèque externe https://crates.io/crates/rand[`rand`] dans le projet
 +
