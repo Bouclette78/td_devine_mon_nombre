@@ -75,12 +75,12 @@ NOTE: Inspirez-vous de l'exemple fourni dans la https://doc.rust-lang.org/std/io
 .. Que signifie la notation `&mut` devant le nom de la variable dans l'appel à `read_line` ?
 +
 ....
-elle signifie qu'on donne pas les droits d'accès a la variable de manière permanente
+on donne pas les droits d'accès a la variable de manière permanente (emprunt de la valeur mais pas propriété)
 ....
 .. Quel est le type de retour de `read_line` ? Quel est son utilité ?
 +
 ....
-🡆 Répondre ici 🡄
+c'est un booléen qui dit si c'est vide ou pas 
 ....
 .. Utilisez la méthode https://doc.rust-lang.org/std/result/enum.Result.html#method.unwrap[`unwrap`] pour désencapsuler la chaîne saisie.
 .. Affichez le nombre saisi à l'écran.
