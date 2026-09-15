@@ -49,7 +49,7 @@ NOTE: Le message `Hello world!` doit apparaître à l'écran.
 +
 .Quelles commandes avez-vous tapées ?
 ....
-🡆 Répondre ici 🡄
+git add . && git commit -m "sauvegarde" && git push
 ....
 
 === Lire un nombre
