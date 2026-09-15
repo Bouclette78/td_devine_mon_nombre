@@ -75,7 +75,7 @@ NOTE: Inspirez-vous de l'exemple fourni dans la https://doc.rust-lang.org/std/io
 .. Que signifie la notation `&mut` devant le nom de la variable dans l'appel à `read_line` ?
 +
 ....
-🡆 Répondre ici 🡄
+elle signifie qu'on donne pas les droits d'accès a la variable de manière permanente
 ....
 .. Quel est le type de retour de `read_line` ? Quel est son utilité ?
 +
