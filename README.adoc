@@ -40,7 +40,8 @@ TIP: Le nom d'un _crate_ respecte la notation https://doc.rust-lang.org/1.0.0/st
 +
 .Quelles commandes avez-vous tapées ?
 ....
-🡆 Répondre ici 🡄
+rustc devine_mon_nombre.rs
+./devine_mon_nombre
 ....
 +
 NOTE: Le message `Hello world!` doit apparaître à l'écran.
